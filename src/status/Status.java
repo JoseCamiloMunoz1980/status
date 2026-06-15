@@ -23,11 +23,12 @@ public class Status {
      */
     public static void main(String[] args)
     {
-    Scanner in =new Scanner(System.in);
-    System.out.print("Enter the user status code (zero,one,two,three,four) in string: ");
-    String code = in.next();
+    //Scanner in =new Scanner(System.in);    
     StatusUser t= new StatusUser();
-    t.statusDetail(code); 
+    //t.statusDetail(code);
+    System.out.println("Enter the user status code (zero,one,two,three,four) in string");
+    t.start();    
+    //String code = in.next();
     }
     
 }
