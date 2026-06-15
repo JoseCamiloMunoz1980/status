@@ -9,14 +9,17 @@ package status;
  * MidTerm-Exam
  * @author srinivsi
  */
-public class StausUser 
+public class StatusUser 
 {
    public void statusDetail(String code)
+        
+   
 {
+    
 switch(code.toUpperCase())
         {
         case "ZERO": System.out.println("REJECTED");
-        break;
+        break;        
         case "ONE": System.out.println("PENDING");
         break;
         case "TWO":
@@ -24,6 +27,8 @@ switch(code.toUpperCase())
         break;
         case "THREE": 
             System.out.println("APPROVED");
+        break;
+        case "FOUR": System.out.println("COMPLETED");
         break;
         default:
          System.out.println("NOT VALID CODE");
